@@ -144,6 +144,9 @@ def main():
     st.subheader('**A breakdown of your netflix history**')
 
     st.write('[**click here to download your netlfix viewing history**](https://www.netflix.com/viewingactivity)')
+    with st.beta_expander("See explanation"):
+        st.write('This will redirect you to your netflix viewing activity. At the bottom you will find a link to download a CSV file of your history')
+       
 
     file = st.file_uploader('Upload file', type=['csv'])
     
