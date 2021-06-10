@@ -130,8 +130,8 @@ def show_data(df):
 
 def main():
 
-    st.title('Analyize Your Netflix Viewing History')
-    st.subheader('**A breakdown of your netflix history**')
+    st.title('Visualize Your Netflix History')
+    st.subheader('**A dashboard for your film palette**')
 
     st.write('[**click here to download your netlfix viewing history**](https://www.netflix.com/viewingactivity)')
 
